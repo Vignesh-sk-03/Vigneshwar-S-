@@ -1,0 +1,6 @@
+{
+  "name": "Cric.taught",
+  "description": "Live cricket scores, match detail statistics, point tables, player profiles, search, and push notifications with offline Room caching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

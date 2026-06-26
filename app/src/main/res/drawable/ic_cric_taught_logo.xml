@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Black Circular Badge Background -->
+    <path
+        android:fillColor="#1A1C1E"
+        android:pathData="M50,50m-48,0a48,48 0 1,1 96,0a48,48 0 1,1 -96,0" />
+
+    <!-- Double Golden Rings -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="1.5"
+        android:pathData="M50,6 A44,44 0 1,1 49.9,6" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD54F"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="0.8"
+        android:pathData="M50,10 A40,40 0 1,1 49.9,10" />
+
+    <!-- Three Wickets (Center bottom) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M46,68h1.5v10h-1.5z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M49.25,68h1.5v10h-1.5z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M52.5,68h1.5v10h-1.5z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M45,66.5h10v1.2h-10z" />
+
+    <!-- Gold Swing Swoosh -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M24,54 C30,36 48,28 62,32" />
+
+    <!-- Flying Gold Cricket Ball -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M68,30 A3,3 0 1,1 67.9,30" />
+    <!-- Ball speed trails -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="0.8"
+        android:pathData="M60,33 L65,31.5" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="0.6"
+        android:pathData="M59,35 L63,33.5" />
+
+    <!-- Batsman Silhouette (White) -->
+    <!-- Helmet/Head -->
+    <path
+        android:fillColor="#E2E2E6"
+        android:pathData="M36,37 a3,3 0 1,1 0.01,-0.01" />
+    <!-- Torso and Leg stance -->
+    <path
+        android:fillColor="#E2E2E6"
+        android:pathData="M34,41 L40,42 L42,50 L38,58 L34,58 L37,50 L32,45 Z" />
+    <!-- Arm swinging -->
+    <path
+        android:fillColor="#E2E2E6"
+        android:pathData="M37,41 L43,38 L47,41 L41,44 Z" />
+    <!-- Cricket Bat -->
+    <path
+        android:fillColor="#E2E2E6"
+        android:strokeColor="#E2E2E6"
+        android:strokeWidth="1.2"
+        android:strokeLineJoin="round"
+        android:pathData="M46,40 L56,30 L58,32 L48,42 Z" />
+    <!-- Bat Grip/Handle in Gold -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M44,42 L41,45 L43,46 L45,43 Z" />
+
+</vector>
